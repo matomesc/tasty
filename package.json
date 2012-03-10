@@ -1,0 +1,21 @@
+{
+  "author": "Mihai Tomescu <matomesc@gmail.com> (https://github.com/matomesc)",
+  "name": "tasty",
+  "description": "easily test restful json apis",
+  "version": "0.0.0",
+  "homepage": "https://github.com/matomesc/tasty",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matoomesc/tasty.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
